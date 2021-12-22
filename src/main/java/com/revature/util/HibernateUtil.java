@@ -25,7 +25,7 @@ public class HibernateUtil {
 	 * This method obtains a JDBC connection which we can use
 	 * to perform a transaction on our Database.
 	 */
-	public static Session getSession() { // similar to getCOnnection()
+	public static Session getSession() { // similar to getConnection()
 		
 		if (ses == null) {
 			ses =  sf.openSession();
